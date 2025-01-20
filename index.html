@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Qing Neng</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Chuah Qing Neng</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>
+                Hello, I’m a second-year Economics student, and I believe economics is more than just numbers and money. It’s about the relationship between humans and the economy—how the economy is shaped by human behavior and how, in turn, it shapes the way we live and think. This dynamic fascinates me, and it’s what keeps me excited to explore new ways to understand and leverage it.
+                Alongside my formal studies, I’m a big believer in self-learning. To me, self-learning means getting hands-on and immersing myself in real-world experiences. As humans, it’s important to make use of the tools available to us. This website, for example, is a reflection of how I integrate self-learning through platforms like YouTube and tools like ChatGPT to grow my knowledge and skills.
+                This approach to self-learning directly relates to my work. In every job or project I take on, I apply the same mindset—learning by doing, utilizing available resources, and continuously adapting to challenges. This mindset allows me to tackle problems creatively, efficiently, and with a focus on practical results.
+            </p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>National University of Singapore</strong> (Aug 2023 - Dec 2026)</p>
+            <p>Bachelor of Social Sciences (Hons) in Economics</p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Founder, KindBit</strong> (Dec 2024 - Present) </li>
+                <li><strong>Research Executive, NUS Economics Society</strong> (Aug 2024 - Present) </li>
+                <li><strong>Leasing Intern, CapitaLand Malaysia Trust</strong> (May 2024 - Aug 2024)</li>
+                <li><strong>Intern, Office of Member of Parliament for Kepong</strong> (May 2023 - Aug 2023)</li>
+            </ul>
+        </section>
+    </section>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:e1308813@u.nus.edu"><i class="fas fa-envelope"></i></a></p>
+            <p>LinkedIn: <a class="linkedin-logo" href="https://www.linkedin.com/in/chuahqingneng" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+        </div>
+    </aside>
+
+    <div class="sidebar-toggle" id="sidebarToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Chuah Qing Neng</p>
+    </footer>
+
+    <script>
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

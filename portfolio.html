@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Qing Neng</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Chuah Qing Neng</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <article class="project">
+            <h3>Investor Behavior in Speculative Markets</h3>
+            <div class="date">Dec 2024</div>
+            <p class="description">
+                This essay was written for <strong>What In The Economics</strong>, targeting readers with some foundational economics background, and follows the 1,300–1,500 word limit. Submitted to NUS Economics Society, awaiting publication.
+            </p>
+            <a href="https://drive.google.com/file/d/12zSs5VblSOZYErCIeE3VZXoFvcv53Yxb/view?usp=drive_link" target="_blank">View PDF</a>
+        </article>
+
+        <article class="project">
+            <h3>The Hidden Costs of Food Waste in Singapore</h3>
+            <div class="date">Dec 2024</div>
+            <p class="description">
+                This essay was written for <strong>Market Matters</strong>, targeting readers with no economics background, and follows the 400–500 word limit. Submitted to NUS Economics Society, awaiting publication.
+            </p>
+            <a href="https://drive.google.com/file/d/1yHmqviMxb0uNZiD5CpbgeHCNRlwA3VXb/view?usp=drive_link" target="_blank">View PDF</a>
+        </article>
+    </section>    
+
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:e1308813@u.nus.edu"><i class="fas fa-envelope"></i></a></p>
+            <p>LinkedIn: <a class="linkedin-logo" href="https://www.linkedin.com/in/chuahqingneng" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+        </div>
+    </aside>
+
+    <div class="sidebar-toggle" id="sidebarToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Chuah Qing Neng</p>
+    </footer>
+
+    <script>
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
