@@ -213,6 +213,10 @@ footer p {
     background-color: #FFD700;
 }
 
+.edu-item {
+    margin-bottom: 12px;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 0 10px;
@@ -244,4 +248,5 @@ footer p {
     .sidebar-toggle {
         padding: 10px;
     }
+
 }
